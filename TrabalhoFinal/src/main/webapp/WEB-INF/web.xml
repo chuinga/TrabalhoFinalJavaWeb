@@ -19,4 +19,24 @@
     <servlet-name>Servlet01</servlet-name>
     <url-pattern>/Servlet01</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Servlet02</display-name>
+    <servlet-name>Servlet02</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.Servlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet02</servlet-name>
+    <url-pattern>/Servlet02</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MyServletContextListenerTestServlet</display-name>
+    <servlet-name>MyServletContextListenerTestServlet</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.MyServletContextListenerTestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServletContextListenerTestServlet</servlet-name>
+    <url-pattern>/MyServletContextListenerTestServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
