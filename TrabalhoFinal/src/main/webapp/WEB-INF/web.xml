@@ -39,4 +39,47 @@
     <servlet-name>MyServletContextListenerTestServlet</servlet-name>
     <url-pattern>/MyServletContextListenerTestServlet</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>dev.mfpmartins.javaservlets.MyServletContextListener</listener-class>
+  </listener>
+  <servlet>
+    <description></description>
+    <display-name>PagLogin</display-name>
+    <servlet-name>PagLogin</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.PagLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PagLogin</servlet-name>
+    <url-pattern>/PagLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PagLoginAction</display-name>
+    <servlet-name>PagLoginAction</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.PagLoginAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PagLoginAction</servlet-name>
+    <url-pattern>/PagLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PagApp1</display-name>
+    <servlet-name>PagApp1</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.PagApp1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PagApp1</servlet-name>
+    <url-pattern>/PagApp1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PagApp2</display-name>
+    <servlet-name>PagApp2</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.PagApp2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PagApp2</servlet-name>
+    <url-pattern>/PagApp2</url-pattern>
+  </servlet-mapping>
 </web-app>
