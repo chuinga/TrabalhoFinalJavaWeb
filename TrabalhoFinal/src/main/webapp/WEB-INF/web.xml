@@ -82,4 +82,14 @@
     <servlet-name>PagApp2</servlet-name>
     <url-pattern>/PagApp2</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginAction</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>dev.mfpmartins.javaservlets.LoginAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
 </web-app>
